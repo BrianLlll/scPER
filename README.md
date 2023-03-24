@@ -1,2 +1,3 @@
 scPER
-![Alt text](./overview.png?raw=true "Optional Title")
+
+<img src="./overview.png" height=10%>
