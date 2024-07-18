@@ -31,12 +31,12 @@ names(rowVar[order(rowVar,decreasing = TRUE)][1:5000])->mad.genes
 mad5000= sc_df_impute[mad.genes,] ### gene by sample
 
 
-write.csv(mad5000,'/results/reference_top5k_imputation.csv',quote=FALSE)
+write.csv(mad5000,'/example/reference_top5k_imputation.csv',quote=FALSE)
 print('Output imputed reference data')
 
 bulk_overlap<-bulk[mad.genes,]
 
-write.csv(bulk_overlap,'/results/bulk_5k_genes_matched.csv',quote=FALSE)
+write.csv(bulk_overlap,'/example/bulk_5k_genes_matched.csv',quote=FALSE)
 print('Output simulated bulk data')
 
 
