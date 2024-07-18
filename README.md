@@ -40,3 +40,7 @@ Rscript XGBoost.R /results/ADAE_100_latents.tsv /results/bulk_100_latents.tsv /d
 ```
 ### (optional) Identify the phenotype-associated cell populations
 If you have the clinical phenotypes of the bulk RNA-seq samples, you may generate the plots to identify the phenotype-associated cell clusters. 
+
+```
+Rscript phenotype_cell_clusters.R /results/scPER_predicted_proportions.txt /results/label_bulk.csv
+```
