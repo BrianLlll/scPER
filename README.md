@@ -3,6 +3,7 @@
 scPER, which stands for **P**roportions **E**stimated using **s**ingle-**c**ell RNA-seq **R**eference, is a novel computational approach that combines an adversarial autoencoder with extreme gradient boosting. It can robustly estimate the relative compositions of cells and their subtypes within the tumor microenvironment and identify phenotype-associated subclusters. By integrating scRNA-seq datasets from various tumors, scPER constructs comprehensive reference panels encompassing all possible tumor cell types and disentangles confounding factors from true signals within the latent space of the adversarial autoencoder model.
 
 <img src="./overview.png" height=10%>
+
 ## Dependencies
 Keras 2.10.0
 magic-impute 3.0.0
