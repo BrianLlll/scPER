@@ -36,7 +36,7 @@ python -u main.py /example/reference_top5k_imputation.csv  /example/example_labe
 The third step is to estimate the cell proportions in bulk samples based on the latent representations generated for scRNA-seq and bulk RNA-seq samples in step 2.
 
 ```
-Rscript XGBoost.R /results/ADAE_100_latents.tsv /results/bulk_100_latents.tsv /example/example_label_200_cells_ref.csv
+Rscript proportion_estimate.R /results/ADAE_100_latents.tsv /results/bulk_100_latents.tsv /example/example_label_200_cells_ref.csv
 ```
 ### (optional) Identify the phenotype-associated cell populations
 If you have the clinical phenotypes of the bulk RNA-seq samples, you may generate the plots to identify the phenotype-associated cell clusters. 
