@@ -19,7 +19,7 @@ xgboost 1.7.5.1
 The whole process requires three files: (1) a single-cell RNA-seq matrix of the selected cells, which can come from different sources; (2) labels for the selected cells, indicating their cell types and batches (e.g., studies, tissues); and (3) bulk RNA-seq samples. Optionally, you can provide clinical phenotypes of the bulk RNA-seq samples if you wish to identify phenotype-associated cell clusters.
 
 ### 1. Preprocess the scRNA-seq data
-The first step is to identify the overlap genes between scRNA-seq data and bulk RNA-seq data, impute the scRNA-seq data using MAGIC, and select the top 5k most variable genes in scRNA-seq data. 
+The first step is to identify the overlap genes between scRNA-seq data and bulk RNA-seq data, impute the scRNA-seq data using MAGIC, and select the top 5k most variable genes in scRNA-seq data for constructing the reference panel. 
 
 ```
 Rscript preprocess_data.R /example/example_matrix_200_cells_ref.csv /example/Bulk_simulation_100_all_genes.csv
