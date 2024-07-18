@@ -6,10 +6,15 @@ scPER, which stands for **P**roportions **E**stimated using **s**ingle-**c**ell 
 
 ## Dependencies
 Keras 2.10.0
+
 magic-impute 3.0.0
+
 tensorflow 2.10.0
+
 Rmagic 2.0.3
+
 xgboost 1.7.5.1
+
 ## Quick Start
 The process requires three files, (1) single-cell RNA-seq matrix of the cells you selected and they can come from different sources (2) the labels of the selected cells indicating their cell types, batches (e.g. studies, tissues) (3) bulk RNA-seq samples.
 You may also provide clinical phenotypes of the bulk RNA-seq samples if you want to identify the phenotype-associated cell clusters. 
