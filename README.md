@@ -1,6 +1,6 @@
 # scPER
 ## Introduction
-scPER, Estimating the cell Proportions using the single-cell RNA-seq Reference, is a novel approach combining adversarial autoencoder and extreme gradient boosting to robustly estimate the relative compositions of cells and their subtypes in the tumor microenvironment of different cancer types and identify the phenotype-associated subclusters. scPER integrated the scRNA-seq datasets derived from different tumors to construct the comprehensive reference panels of all possible tumor cell types and disentangled the confounders from true signals in the latent space of the adversarial autoencoder model.
+scPER, which stands for Estimating Cell Proportions using single-cell RNA-seq Reference, is a novel computational approach that combines an adversarial autoencoder with extreme gradient boosting. It can robustly estimate the relative compositions of cells and their subtypes within the tumor microenvironment and identify phenotype-associated subclusters. By integrating scRNA-seq datasets from various tumors, scPER constructs comprehensive reference panels encompassing all possible tumor cell types and disentangles confounding factors from true signals within the latent space of the adversarial autoencoder model.
 
 <img src="./overview.png" height=10%>
 
